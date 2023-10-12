@@ -1,0 +1,2 @@
+learning_action
+-DCATKIN_DEVEL_PREFIX=/home/john/project/Elegent/07Actionlib/devel -DCMAKE_INSTALL_PREFIX=/home/john/project/Elegent/07Actionlib/install -G Unix Makefiles

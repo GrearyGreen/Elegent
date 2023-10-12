@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231012-0159-Experimental"
+	Name="Carto"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="7.5.0"
+	OSName="Linux"
+	Hostname="Carto"
+	OSRelease="5.4.0-150-generic"
+	OSVersion="#167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="30517"
+	TotalPhysicalMemory="15891"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2625.65"
+	>
+	<Testing>
+		<StartDateTime>Oct 12 15:26 CST</StartDateTime>
+		<StartTestTime>1697095603</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 12 15:26 CST</EndDateTime>
+		<EndTestTime>1697095603</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

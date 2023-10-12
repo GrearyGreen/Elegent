@@ -1,0 +1,2 @@
+learning_parameter
+-DCATKIN_DEVEL_PREFIX=/home/john/project/Elegent/06Parameter/devel -DCMAKE_INSTALL_PREFIX=/home/john/project/Elegent/06Parameter/install -G Unix Makefiles
