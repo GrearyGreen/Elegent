@@ -1,0 +1,2 @@
+learning_tf
+-DCATKIN_DEVEL_PREFIX=/home/john/project/Elegent/08TransForm/devel -DCMAKE_INSTALL_PREFIX=/home/john/project/Elegent/08TransForm/install -G Unix Makefiles

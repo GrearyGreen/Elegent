@@ -5,10 +5,11 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
-export ROSLISP_PACKAGE_DIRECTORIES='/home/john/project/Elegent/06Parameter/src/learning_parameter/build/devel/share/common-lisp'
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/john/project/Elegent/06Parameter/src/learning_parameter/build/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu'
+export LD_LIBRARY_PATH="/home/john/project/Elegent/06Parameter/src/learning_parameter/build/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/john/project/Elegent/06Parameter/src/learning_parameter/build/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/john/project/Elegent/06Parameter/src/learning_parameter/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/john/project/Elegent/06Parameter/src/learning_parameter/build/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/john/project/Elegent/06Parameter/src/learning_parameter:$ROS_PACKAGE_PATH"
