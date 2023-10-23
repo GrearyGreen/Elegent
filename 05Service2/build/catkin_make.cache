@@ -1,2 +1,0 @@
-learning_service
--DCATKIN_DEVEL_PREFIX=/home/john/Elegent/05Service2/devel -DCMAKE_INSTALL_PREFIX=/home/john/Elegent/05Service2/install -G Unix Makefiles
