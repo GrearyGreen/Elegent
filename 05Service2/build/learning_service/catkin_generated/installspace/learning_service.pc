@@ -1,4 +1,4 @@
-prefix=/home/john/project/Elegent/05Service2/install
+prefix=/home/john/Elegent/05Service2/install
 
 Name: learning_service
 Description: Description of learning_service

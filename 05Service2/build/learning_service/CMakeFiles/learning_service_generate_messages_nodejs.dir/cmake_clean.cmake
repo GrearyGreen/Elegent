@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/john/Elegent/05Service2/devel/share/gennodejs/ros/learning_service/srv/Person.js"
   "CMakeFiles/learning_service_generate_messages_nodejs"
-  "/home/john/project/Elegent/05Service2/devel/share/gennodejs/ros/learning_service/srv/Person.js"
 )
 
 # Per-language clean rules from dependency scanning.

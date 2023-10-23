@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/john/Elegent/05Service2/devel/include/learning_service/Person.h"
   "CMakeFiles/learning_service_generate_messages_cpp"
-  "/home/john/project/Elegent/05Service2/devel/include/learning_service/Person.h"
 )
 
 # Per-language clean rules from dependency scanning.

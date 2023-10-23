@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/john/project/Elegent/06Parameter/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu'
-export PWD='/home/john/project/Elegent/06Parameter/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/john/project/Elegent/06Parameter/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/john/project/Elegent/06Parameter/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/john/Elegent/06Parameter/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/john/Elegent/06Parameter/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/john/Elegent/06Parameter/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/john/Elegent/06Parameter/src:$ROS_PACKAGE_PATH"

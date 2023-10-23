@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv"
+services_str = "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv"
 pkg_name = "learning_service"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

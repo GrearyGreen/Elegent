@@ -67,14 +67,14 @@ set(learning_service_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(learning_service_SOURCE_PREFIX /home/john/project/Elegent/05Service2/src/learning_service)
-  set(learning_service_DEVEL_PREFIX /home/john/project/Elegent/05Service2/devel)
+  set(learning_service_SOURCE_PREFIX /home/john/Elegent/05Service2/src/learning_service)
+  set(learning_service_DEVEL_PREFIX /home/john/Elegent/05Service2/devel)
   set(learning_service_INSTALL_PREFIX "")
   set(learning_service_PREFIX ${learning_service_DEVEL_PREFIX})
 else()
   set(learning_service_SOURCE_PREFIX "")
   set(learning_service_DEVEL_PREFIX "")
-  set(learning_service_INSTALL_PREFIX /home/john/project/Elegent/05Service2/install)
+  set(learning_service_INSTALL_PREFIX /home/john/Elegent/05Service2/install)
   set(learning_service_PREFIX ${learning_service_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/john/project/Elegent/05Service2/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/john/Elegent/05Service2/install/lib;/home/john/Elegent/08TransForm/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

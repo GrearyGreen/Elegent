@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/john/Elegent/05Service2/devel/lib/learning_service/turtle_command_server"
+  "/home/john/Elegent/05Service2/devel/lib/learning_service/turtle_command_server.pdb"
   "CMakeFiles/turtle_command_server.dir/src/turtle_command_server.cpp.o"
-  "/home/john/project/Elegent/05Service2/devel/lib/learning_service/turtle_command_server.pdb"
-  "/home/john/project/Elegent/05Service2/devel/lib/learning_service/turtle_command_server"
+  "CMakeFiles/turtle_command_server.dir/src/turtle_command_server.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

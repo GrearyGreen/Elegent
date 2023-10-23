@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/john/project/Elegent/08TransForm/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu'
-export PWD='/home/john/project/Elegent/08TransForm/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/john/project/Elegent/08TransForm/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/john/project/Elegent/08TransForm/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/john/Elegent/08TransForm/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/john/Elegent/08TransForm/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/john/Elegent/08TransForm/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/john/Elegent/08TransForm/src:$ROS_PACKAGE_PATH"

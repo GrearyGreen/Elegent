@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/john/Elegent/07Actionlib/devel/lib/learning_action/readbook_client"
+  "/home/john/Elegent/07Actionlib/devel/lib/learning_action/readbook_client.pdb"
   "CMakeFiles/readbook_client.dir/src/readbook_client.cpp.o"
-  "/home/john/project/Elegent/07Actionlib/devel/lib/learning_action/readbook_client.pdb"
-  "/home/john/project/Elegent/07Actionlib/devel/lib/learning_action/readbook_client"
+  "CMakeFiles/readbook_client.dir/src/readbook_client.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

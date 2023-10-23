@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/john/Elegent/05Service2/devel/share/roseus/ros/learning_service/manifest.l"
+  "/home/john/Elegent/05Service2/devel/share/roseus/ros/learning_service/srv/Person.l"
   "CMakeFiles/learning_service_generate_messages_eus"
-  "/home/john/project/Elegent/05Service2/devel/share/roseus/ros/learning_service/srv/Person.l"
-  "/home/john/project/Elegent/05Service2/devel/share/roseus/ros/learning_service/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

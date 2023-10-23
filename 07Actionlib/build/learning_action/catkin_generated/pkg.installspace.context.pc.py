@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "learning_action"
-PROJECT_SPACE_DIR = "/home/john/project/Elegent/07Actionlib/install"
+PROJECT_SPACE_DIR = "/home/john/Elegent/07Actionlib/install"
 PROJECT_VERSION = "0.0.0"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/john/Elegent/05Service2/devel/share/common-lisp/ros/learning_service/srv/Person.lisp"
   "CMakeFiles/learning_service_generate_messages_lisp"
-  "/home/john/project/Elegent/05Service2/devel/share/common-lisp/ros/learning_service/srv/Person.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

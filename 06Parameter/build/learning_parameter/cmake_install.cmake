@@ -1,8 +1,8 @@
-# Install script for directory: /home/john/project/Elegent/06Parameter/src/learning_parameter
+# Install script for directory: /home/john/Elegent/06Parameter/src/learning_parameter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/john/project/Elegent/06Parameter/install")
+  set(CMAKE_INSTALL_PREFIX "/home/john/Elegent/06Parameter/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,18 +37,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/john/project/Elegent/06Parameter/build/learning_parameter/catkin_generated/installspace/learning_parameter.pc")
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/john/Elegent/06Parameter/build/learning_parameter/catkin_generated/installspace/learning_parameter.pc")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_parameter/cmake" TYPE FILE FILES
-    "/home/john/project/Elegent/06Parameter/build/learning_parameter/catkin_generated/installspace/learning_parameterConfig.cmake"
-    "/home/john/project/Elegent/06Parameter/build/learning_parameter/catkin_generated/installspace/learning_parameterConfig-version.cmake"
+    "/home/john/Elegent/06Parameter/build/learning_parameter/catkin_generated/installspace/learning_parameterConfig.cmake"
+    "/home/john/Elegent/06Parameter/build/learning_parameter/catkin_generated/installspace/learning_parameterConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_parameter" TYPE FILE FILES "/home/john/project/Elegent/06Parameter/src/learning_parameter/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_parameter" TYPE FILE FILES "/home/john/Elegent/06Parameter/src/learning_parameter/package.xml")
 endif()
 

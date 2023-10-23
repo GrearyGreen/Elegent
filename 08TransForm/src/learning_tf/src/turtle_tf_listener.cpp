@@ -27,6 +27,7 @@ int main(int argc, char **argv)
 
         while (nh.ok())
         {
+                //通过接收，发布者的矩阵：tf::Transform transform
                 tf::StampedTransform transform;
 
                 // 获取turtle1与turtle2坐标系之间的tf数据
@@ -34,6 +35,7 @@ int main(int argc, char **argv)
                 {
                         // 查询是否有这两个坐标系，查询当前时间，如果超过3s则报错
                         listener.waitForTransform("/turtle2", "/turtle1", ros::Time(0), ros::Duration(3.0));
+                        //计算原坐标到目标坐标系的转换矩阵
                         listener.lookupTransform("/turtle2", "/turtle1", ros::Time(0), transform);
                 }
                 catch (tf::TransformException &ex)
@@ -45,6 +47,7 @@ int main(int argc, char **argv)
 
                 // 根据turtle1与turtle2坐标系之间的位置关系，发布turtle2的速度控制指令
                 geometry_msgs::Twist vel_msg;
+                //4是旋转速度，0.5是移动速度，角度反解tan，距离是欧式距离
                 vel_msg.angular.z = 4.0 * atan2(transform.getOrigin().y(), transform.getOrigin().x());
                 vel_msg.linear.x = 0.5 * sqrt(pow(transform.getOrigin().x(), 2) + pow(transform.getOrigin().y(), 2));
 

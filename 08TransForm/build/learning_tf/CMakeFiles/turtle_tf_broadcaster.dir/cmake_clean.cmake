@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/john/Elegent/08TransForm/devel/lib/learning_tf/turtle_tf_broadcaster"
+  "/home/john/Elegent/08TransForm/devel/lib/learning_tf/turtle_tf_broadcaster.pdb"
   "CMakeFiles/turtle_tf_broadcaster.dir/src/turtle_tf_broadcaster.cpp.o"
-  "/home/john/project/Elegent/08TransForm/devel/lib/learning_tf/turtle_tf_broadcaster.pdb"
-  "/home/john/project/Elegent/08TransForm/devel/lib/learning_tf/turtle_tf_broadcaster"
+  "CMakeFiles/turtle_tf_broadcaster.dir/src/turtle_tf_broadcaster.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/john/Elegent/05Service2/devel/lib/learning_service/person_client"
+  "/home/john/Elegent/05Service2/devel/lib/learning_service/person_client.pdb"
   "CMakeFiles/person_client.dir/src/person_client.cpp.o"
-  "/home/john/project/Elegent/05Service2/devel/lib/learning_service/person_client.pdb"
-  "/home/john/project/Elegent/05Service2/devel/lib/learning_service/person_client"
+  "CMakeFiles/person_client.dir/src/person_client.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

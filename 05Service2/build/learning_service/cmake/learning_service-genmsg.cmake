@@ -17,9 +17,9 @@ add_custom_target(learning_service_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
+get_filename_component(_filename "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
 add_custom_target(_learning_service_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "learning_service" "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "learning_service" "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_learning_service_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(learning_service
-  "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv"
+  "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/learning_service
@@ -49,7 +49,7 @@ add_custom_target(learning_service_generate_messages_cpp
 add_dependencies(learning_service_generate_messages learning_service_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
+get_filename_component(_filename "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
 add_dependencies(learning_service_generate_messages_cpp _learning_service_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS learning_service_generate_messages_
 
 ### Generating Services
 _generate_srv_eus(learning_service
-  "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv"
+  "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/learning_service
@@ -82,7 +82,7 @@ add_custom_target(learning_service_generate_messages_eus
 add_dependencies(learning_service_generate_messages learning_service_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
+get_filename_component(_filename "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
 add_dependencies(learning_service_generate_messages_eus _learning_service_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS learning_service_generate_messages_
 
 ### Generating Services
 _generate_srv_lisp(learning_service
-  "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv"
+  "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/learning_service
@@ -115,7 +115,7 @@ add_custom_target(learning_service_generate_messages_lisp
 add_dependencies(learning_service_generate_messages learning_service_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
+get_filename_component(_filename "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
 add_dependencies(learning_service_generate_messages_lisp _learning_service_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS learning_service_generate_messages_
 
 ### Generating Services
 _generate_srv_nodejs(learning_service
-  "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv"
+  "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/learning_service
@@ -148,7 +148,7 @@ add_custom_target(learning_service_generate_messages_nodejs
 add_dependencies(learning_service_generate_messages learning_service_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
+get_filename_component(_filename "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
 add_dependencies(learning_service_generate_messages_nodejs _learning_service_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS learning_service_generate_messages_
 
 ### Generating Services
 _generate_srv_py(learning_service
-  "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv"
+  "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/learning_service
@@ -181,7 +181,7 @@ add_custom_target(learning_service_generate_messages_py
 add_dependencies(learning_service_generate_messages learning_service_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/john/project/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
+get_filename_component(_filename "/home/john/Elegent/05Service2/src/learning_service/srv/Person.srv" NAME_WE)
 add_dependencies(learning_service_generate_messages_py _learning_service_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
