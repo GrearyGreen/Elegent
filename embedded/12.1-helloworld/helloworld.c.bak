@@ -1,0 +1,22 @@
+/*********************************************************************
+* File£º	hello.c
+* Author£º	zenesion
+* Desc£º		
+* History£º	
+*			Original version, 2013.03 zenesion
+*			Program modify, 2013.03 zenesion
+*********************************************************************/
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+	int i;
+
+	for (i=0; i<5; i++)
+	{
+		printf("HelloWorld!\n");
+	}
+
+	return 0;
+}
+
