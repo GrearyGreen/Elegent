@@ -6,4 +6,5 @@ A.o : A.cpp A.h
 	g++ -g -c A.cpp
 B.o : B.cpp B.h
 	g++ -g -c B.cpp
-
+clean:
+	rm main.o A.o B.o helloworld
