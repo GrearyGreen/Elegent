@@ -23,7 +23,7 @@ int main(void)
     num = fwrite(a, sizeof(a), 1, fp);
     printf("%ld byte data has written to linux.txt\n", num*sizeof(a));
 
-    folder =  mkdir("linux", 1);
+    folder =  mkdir("linux",777);
     if(folder == -1)
     {
         printf("\n Fail to create folder linux!\nIt has existed or the path is error!\n");
