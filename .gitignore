@@ -9,15 +9,18 @@ A_LOAM_WS/src/A-LOAM/build
 A_LOAM_WS/src/A-LOAM/.vscode
 
 #embedded
+embedded/**/*.c.bak
+embedded/**/**/*.c.bak
+
 embedded/12.1-helloworld/helloworld
-embedded/12.1-helloworld/helloworld.c.bak
 
 embedded/12.2-file/linux
 embedded/12.2-file/file
-embedded/12.2-file/file.c.bak
 embedded/12.2-file/linux.txt
 
 embedded/makefileTest/*.o
 embedded/makefileTest/helloworld
+
+
 #
 
