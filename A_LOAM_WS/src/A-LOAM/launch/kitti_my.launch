@@ -1,0 +1,15 @@
+<launch>
+    <!-- kittiHelper是使用kitti数据集的一个启动launch -->
+    <node name="kittiHelper" pkg="aloam_velodyne" type="kittiHelper" output="screen">
+        <!-- 数据集文件夹位置：${HOME}是~文件夹 -->
+        <param name="dataset_folder" type="string" value="${HOME}/aloam_bag" />
+        <!-- 顺序数字 -->
+        <param name="sequence_number" type="string" value="00" />
+        <!-- 转换为bag -->
+        <param name="to_bag" type="bool" value="false" />
+        <!-- 输出为bag的位置 -->
+        <param name="output_bag_file" type="string" value="/tmp/kitti.bag" /> <!-- replace with your output folder -->
+        <!-- 发布延迟 -->
+        <param name="publish_delay" type="int" value="1" />
+    </node>
+</launch>

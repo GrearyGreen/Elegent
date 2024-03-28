@@ -62,6 +62,7 @@ catkin_package(
 )
 
 # 生成可执行文件ascanRegistration
+# 该程序统计点云数据
 add_executable(ascanRegistration src/scanRegistration.cpp)
 # 链接到PCL库
 target_link_libraries(ascanRegistration ${catkin_LIBRARIES} ${PCL_LIBRARIES})
