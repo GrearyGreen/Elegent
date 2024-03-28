@@ -1,2 +1,4 @@
 **/build
 **/devel
+A_LOAM_WS/.catkin_workspace
+A_LOAM_WS/src/CMakeLists.txt
