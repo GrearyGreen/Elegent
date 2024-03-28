@@ -1,10 +1,10 @@
 #ROS
-ROS/**/build
-ROS/**/devel
-#ROS/**/.catkin_workspace
-#ROS/**/src/CMakeLists.txt
-ROS/**/**/build
-ROS/**/**/.vscode
+mrobot_ws/**/build
+mrobot_ws/**/devel
+#mrobot_ws/**/.catkin_workspace
+#mrobot_ws/**/src/CMakeLists.txt
+mrobot_ws/**/**/build
+mrobot_ws/**/**/.vscode
 
 
 #A_LOAM_WS
