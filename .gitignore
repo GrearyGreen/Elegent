@@ -1,4 +1,11 @@
 #ROS
+ROS/**/build
+ROS/**/devel
+ROS/**/.catkin_workspace
+ROS/**/src/CMakeLists.txt
+ROS/**/**/build
+ROS/**/**/.vscode
+
 
 #A_LOAM_WS
 **/build
