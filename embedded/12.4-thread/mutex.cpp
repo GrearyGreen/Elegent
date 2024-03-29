@@ -80,7 +80,7 @@ int main(){
         printf("main unlock\n");
     }
     
-    sleep(1);
+    // sleep(1);
     pthread_mutex_destroy(&work_mutex);
     pthread_join(a_thread,NULL);
     exit(0);
