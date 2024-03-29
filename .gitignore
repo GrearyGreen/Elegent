@@ -14,6 +14,7 @@ A_LOAM_WS/.catkin_workspace
 A_LOAM_WS/src/CMakeLists.txt
 A_LOAM_WS/src/A-LOAM/build
 A_LOAM_WS/src/A-LOAM/.vscode
+A_LOAM_WS/src/A-LOAM/folder-alias.json
 
 #embedded
 embedded/**/*.c.bak
