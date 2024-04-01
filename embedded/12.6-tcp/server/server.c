@@ -15,7 +15,7 @@
 #define LENGTH 512                     // Buffer length                                                                                 
 int main ()
 {   
-	  int sockfd;                        // Socket file descriptor
+	int sockfd;                        // Socket file descriptor
     int nsockfd;                       // New Socket file descriptor
     int num;
     unsigned int sin_size;                      // to store struct size
