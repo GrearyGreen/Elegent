@@ -7,6 +7,8 @@ project(aloam_velodyne)
 set(CMAKE_BUILD_TYPE "Release")
 # 适用C++11标准
 set(CMAKE_CXX_FLAGS "-std=c++11")
+# ubuntu20.04 的PCL库支持
+# set(CMAKE_CXX_FLAGS "-std=c++14")
 # 
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g")
 # 查找调用库的路径（catkin编译需要的库）

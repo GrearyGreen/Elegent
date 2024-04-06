@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -37,7 +36,7 @@ int main(int argc, char **argv)
 	int rt1, rt2;
 	pthread_t thread1, thread2;
 
-	// ´´½¨µÚÒ»¸öÏß³Ì
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ß³ï¿½
 	result = pthread_create(&thread1, PTHREAD_CREATE_JOINABLE, (void *)task1, (void *)&t1);
 	if(result)
 	{
@@ -45,7 +44,7 @@ int main(int argc, char **argv)
 		exit(EXIT_FAILURE);
 	}
 
-	// ´´½¨µÚ¶þ¸öÏß³Ì
+	// ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ß³ï¿½
 	result = pthread_create(&thread2, PTHREAD_CREATE_JOINABLE, (void *)task2, (void *)&t2);
 	if(result)
 	{

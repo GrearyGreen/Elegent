@@ -3,6 +3,7 @@
 #include <stdlib.h> 
 #include <signal.h>
 #include <sys/time.h>
+#include <bits/sigaction.h>
 
 int limit = 10;
 
@@ -12,7 +13,7 @@ void timeout_info(int signo)
     if(limit == 0)
     {
         printf("Sorry, time limit reached.\n");
-	exit(0);
+	    exit(0);
     }
     printf("only %d senconds left.\n", limit--);
 }

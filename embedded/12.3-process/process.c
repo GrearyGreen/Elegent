@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -13,6 +12,7 @@ int main(int argc, char **argv)
 
     printf("\nTry to create new process.\n");
     child = fork();
+	// printf("2");
 
     switch(child)
     {

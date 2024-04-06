@@ -23,6 +23,7 @@ int main(void)
     num = fwrite(a, sizeof(a), 1, fp);
     printf("%ld byte data has written to linux.txt\n", num*sizeof(a));
 
+    // 打开文件夹，是POSIX写法，没有ASIC的写法
     folder =  mkdir("linux",777);
     if(folder == -1)
     {

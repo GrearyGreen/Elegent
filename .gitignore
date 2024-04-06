@@ -19,6 +19,7 @@ A_LOAM_WS/src/A-LOAM/folder-alias.json
 #embedded
 embedded/**/*.c.bak
 embedded/**/**/*.c.bak
+embedded/**/.vscode
 
 embedded/12.1-helloworld/helloworld
 
