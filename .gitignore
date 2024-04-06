@@ -30,5 +30,8 @@ embedded/makefileTest/*.o
 embedded/makefileTest/helloworld
 
 
-#
+#Qt_WallPaper
+Qt_WallPaper/**/**.user
+Qt_WallPaper/**/**.user.**
+Qt_WallPaper/build-**/
 
