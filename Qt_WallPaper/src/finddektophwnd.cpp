@@ -1,5 +1,5 @@
 ﻿#include "finddektophwnd.h"
-#include<QWidget>
+#include <QWidget>
 FindDektopHwnd::FindDektopHwnd()
 {
 

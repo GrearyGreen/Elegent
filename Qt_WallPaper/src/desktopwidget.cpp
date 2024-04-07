@@ -1,5 +1,5 @@
 ﻿#include "desktopwidget.h"
-#include"finddektophwnd.h"
+#include "finddektophwnd.h"
 DesktopWidget::DesktopWidget(QWidget *parent) : QLabel(parent)
 {
     setWindowFlags(windowFlags()|Qt::WindowType::WindowStaysOnTopHint);

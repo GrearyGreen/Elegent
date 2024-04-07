@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include<QApplication>
+#include <QApplication>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),centetLabel(new QLabel),
       model_num(2), model_mood(0), model_frame(0),settingWidget(new settingwidget)

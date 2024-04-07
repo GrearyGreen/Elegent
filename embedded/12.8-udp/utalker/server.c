@@ -50,7 +50,7 @@ int main()
         if(recvfrom(server_socket_fd,buffer,BUFFER_SIZE,0,(struct sockaddr*)&client_addr,&client_addr_length));
         {
             perror("Receive Data Failed:");
-            exit(1);
+            // exit(1);
         }
 
         // 从buffer中拷贝出file_name
