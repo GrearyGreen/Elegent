@@ -37,7 +37,5 @@ Qt_WallPaper/**/**.user.**
 Qt_WallPaper/build-**/
 
 #HTYColorPicker
-HTYColorPicker/**/**.user
-HTYColorPicker/**/**.user.**
-HTYColorPicker/build-**/
+
 
