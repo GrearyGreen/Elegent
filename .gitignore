@@ -37,5 +37,6 @@ Qt_WallPaper/**/**.user.**
 Qt_WallPaper/build-**/
 
 #ColorPicker
-
+ColorPicker/build-HTYColorPicker-unknown-Debug/
+ColorPicker/src/HTYColorPicker.pro.user
 
