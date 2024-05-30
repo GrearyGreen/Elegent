@@ -38,9 +38,9 @@
 	
 	嵌入式大作业
 		
-		{ColorPicker}
+	- {ColorPicker}
 	
-		{Qt_WallPaper}
+	- {Qt_WallPaper}
 
 
 
