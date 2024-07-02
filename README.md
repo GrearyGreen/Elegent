@@ -10,15 +10,49 @@
 	ROS学习记录，包括截图和代码。
 - C++
 
+
+
+
+
 - python
+
+最优化
+
+{Python最优化算法实战}
+
+
+
 
 - linux
 
+
+
+
 - 移动机器人
 
-	{A_LOAM_WS}
-	
-	{}
+  ubuntu18.04的aloam，帮写注释
+
+  {A_LOAM_WS}
+  {A_LOAM_20},u20.04
+
+  agileX,scout大车相关的代码,u18.04
+
+  {amovcar}
+
+  Kalibr 是一个工具箱，可解决以下校准问题：
+- 多相机校准：对具有非全局共享重叠视野的相机系统进行内部和外部校准，并支持各种相机型号。
+- 视觉惯性校准 （CAM-IMU）：通过相机系统对 IMU 进行空间和时间校准以及 IMU 固有参数
+- 多惯性校准 （IMU-IMU）：使用基本惯性传感器以及 IMU 固有参数对 IMU 进行空间和时间校准（需要 1 辅助相机传感器）。
+- 卷帘快门相机校准：卷帘快门相机的全本质校准（投影、失真和快门参数）。
+
+  {kalibr}
+  
+- 视觉SLAM相关
+
+  realsense库
+  {librealsense}
+  {realsense_gazebo_plugin}
+
 
 ## 数学
 
@@ -54,4 +88,15 @@
   - dia-6000：天池大赛的数据集，使用K折交叉验证，lightGBM算法，数据量：6000。
 
 
+
+- 移动机器人课程
+
+  大作业：
+
+- 路径规划相关算法：RRT、DWA、A_Star……
+- 	{chhRobotics},python版本自动驾驶算法
+- 	{chhRobotics_CPP},C++版本
+- 	{PathPlanning}，python版本的路径规划
+- 	{rrt-algorithms}，RRT算法
+- 	
 

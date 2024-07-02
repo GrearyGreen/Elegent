@@ -1,3 +1,6 @@
+#git
+.git/
+
 #ROS
 mrobot_ws/**/build
 mrobot_ws/**/devel
