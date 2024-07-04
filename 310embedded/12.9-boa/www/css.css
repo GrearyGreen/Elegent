@@ -1,0 +1,101 @@
+.table-xia {
+	BORDER-BOTTOM: #cccccc 1px dotted;
+
+}
+.table-xia2 {
+	BORDER-BOTTOM: #cccccc 1px solid;
+	font-weight: normal;
+	font-family: "Geneva";
+	font-size: 24px;
+}
+
+
+.table-xia3 {
+	text-decoration: none;
+	border: 1px solid #E7E7E7;
+}
+
+
+
+.table-xh A:link {
+	TEXT-DECORATION: underline;
+	color: #000000;
+}
+.table-xh A:visited {
+	TEXT-DECORATION: underline;
+	color: #000000;
+}
+
+.table-xh A:active {
+TEXT-DECORATION: underline;
+}
+
+.table-xh A:hover {
+	COLOR: #FF3300;
+	text-decoration: none; 
+}
+
+
+
+
+BODY{FONT-SIZE:9pt;}
+
+
+
+
+A {
+	COLOR: #000000;
+	font-size: 9pt;
+	text-decoration: none;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+
+
+} 
+
+
+
+
+
+
+A:link {
+	TEXT-DECORATION: none;
+	color: #000000;
+
+
+
+}
+A:visited {
+	TEXT-DECORATION: none;
+	color: #000000;
+
+}
+A:active {
+TEXT-DECORATION: none
+}
+
+
+A:hover {
+	COLOR: #FF3300;
+	text-decoration: underline?, OffX=?, OffY=?, Positive=?)?, FinishOpacity=?, Style=?, StartX=?, StartY=?, FinishX=?, FinishY=?); 
+
+}
+BODY{
+SCROLLBAR-HIGHLIGHT-COLOR:buttonface;
+SCROLLBAR-SHADOW-COLOR:buttonface;
+SCROLLBAR-3DLIGHT-COLOR:buttonhighlight;
+SCROLLBAR-TRACK-COLOR:eeeeee;
+SCROLLBAR-DARKSHADOW-COLOR:buttonshadow
+}
+
+TD {
+	FONT-SIZE: 9pt;
+	COLOR: #000000;
+	LINE-HEIGHT: 160%;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+.table-zuoyou {border-right-width: 1px;border-left-width: 1px;border-right-style: solid;border-left-style: solid;border-right-color: #CCCCCC;border-left-color: #CCCCCC;}
+.wenbenkuang {color: #000000;border: 1px solid #999999;font-family: "Verdana", "Arial", "Helvetica", "sans-serif";font-size: 9pt;}
+.go-wenbenkuang {font-family: "Verdana", "Arial", "Helvetica", "sans-serif";font-size: 9pt;color: #000000;background-color: #eeeeee;cursor: hand;padding: 1px;height: 19px;border-top: 1px solid #FFFFFF;border-right: 1px solid #a2a2a2;border-bottom: 1px solid #a2a2a2;border-left: 1px solid #FFFFFF;}
