@@ -1,9 +1,0 @@
-.git/
-.vscode/
-.idea/
-build/
-devel/
-src/CMakeLists.txt
-bag_out_*.bag
-pcd/
-
